@@ -16,7 +16,7 @@ const RestaurantsDisplay = (props) => {
                             <div class="card-body">
                             <span class="max">{item.city}</span>   /
                                       <span class="min">{item.locality}</span>
-                                <h4 class="card-title">2 Person = ₹{item.min_price}</h4>
+                                <h4 class="card-title">4 Person = ₹{item.min_price}</h4>
                                 
                             </div>
                         </div>
