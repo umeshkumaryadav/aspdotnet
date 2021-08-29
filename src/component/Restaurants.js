@@ -3,7 +3,7 @@ import './Restaurants.css';
 
 const RestaurantsDisplay = (props) => {
     console.log("Props is>>>>>",props)
-   //const datalist = http://13.233.168.24/restaurant/;
+   
     const renderList = ({datalist}) => {
         if(datalist){
             return datalist.map((item,index) => {
