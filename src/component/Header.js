@@ -11,14 +11,14 @@ class Header extends Component {
                 <div className="container-fluid">
                     <div className="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>                        
+                        <span className="icon-bar"></span>
+                        <span className="icon-bar"></span>
+                        <span className="icon-bar"></span>                        
                     </button>
                     <a class="navbar-brand">Developer Funnel</a>
                     </div>
-                    <div class="collapse navbar-collapse" id="myNavbar">
-                    <ul class="nav navbar-nav">
+                    <div className="collapse navbar-collapse" id="myNavbar">
+                    <ul className="nav navbar-nav">
                         <li ><a >Home</a></li>
                         <li><a >Page 2</a></li>
                         <li><a>Page 3</a></li>
